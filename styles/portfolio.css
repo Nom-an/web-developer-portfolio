@@ -96,3 +96,11 @@ nav ul li a{
     font-size: 85px;
     font-weight: bold;
 }
+
+/* header  */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+
+    background-position: top left, bottom right;
+}
