@@ -8,6 +8,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+    margin: 0;
+
+}
 
 
 
@@ -68,16 +72,27 @@ nav ul li a{
 /* banner styles  */
 
 .banner-content{
-    height: 356px;
-    width: 545px;
+  
+    max-width: 580px;
 }
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFF8F3;
+
+  
+    margin: 0 35px 0 200px;
 }
 .banner img{
-    width: 584px;
+    width: 580px;
     height: 676px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
 }
